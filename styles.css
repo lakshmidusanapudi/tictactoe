@@ -5,13 +5,19 @@ body{
    background-color: aquamarine; 
 }
 div{
-    background-color: bisque;
+    
+    background-color: rgb(240, 215, 183);
+    margin-left: auto;
+    margin-right: auto;
 }
+
 section{
     text-align: center;
-    padding: 50px;
+    padding: 100px;
+    
 }
 .game--container{
+text-align: center;
 display: grid;
 grid-template-columns: repeat(3,auto);
 width: 300px;
