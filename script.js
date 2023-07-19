@@ -4,9 +4,9 @@ let currentPlayer="X"; //initial player
 //initialize all the 9 cells as empty cells
 let gameState=["","","","","","","","",""];
 //give winning message X, O
-const winningMessage=()=>`Player ${currentPlayer} has won! `;
+const winningMessage=()=>` Congratulations! Player ${currentPlayer} you have won the game! `;
 const drawMessage=()=>'Game ended in draw';
-const currentPlayerTurn=()=>`Its ${currentPlayer} turn`;
+const currentPlayerTurn=()=>` ${currentPlayer} it's your turn`;
 statusDisplay.innerHTML=currentPlayerTurn();
 //declare 5 functions
 function handleCellPlayed(){   
